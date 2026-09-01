@@ -33,7 +33,7 @@ jobs:
           import re
           import urllib.request
 
-          SOURCE_URL = "https://alex4528.site/jplus/playlist.m3u"
+          SOURCE_URL = "https://alex4528.site/jplus/playlist.m3u?1=1"
           OUTPUT_FILE = "vivo.m3u"
           FILTER_TAGS = []
 
