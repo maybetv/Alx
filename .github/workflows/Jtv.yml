@@ -1,110 +1,58 @@
-name: Refresh viva.m3u Playlist
+name: Shoe Playlist Sync
 
 on:
   schedule:
-    # Runs every 30 minutes
     - cron: '*/30 * * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/update_viva.yml'
+
+concurrency:
+  group: playlist-update
+  cancel-in-progress: true
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          fetch-depth: 0
 
-      - name: Fetch and Format Playlist
+      - name: Download and Update M3U Links
         run: |
-          python - << 'EOF'
-          import json
-          import re
-          import urllib.request
+          # OTT Navigator-ൻ്റെ User-Agent ഉപയോഗിച്ച് 403 ബ്ലോക്ക് മറികടക്കുന്നു 
+          curl -s -L -A "OTT Navigator" "https://mute-sunset-8225.streamstar18.workers.dev/" -o temp.m3u
+          
+          # HTML പേജ് അല്ല, യഥാർത്ഥ M3U ആണ് കിട്ടിയതെന്ന് ഉറപ്പാക്കുന്നു
+          if grep -q "#EXTM3U" temp.m3u; then
+            echo "#EXTM3U" > Shoe.m3u
+            
+            # JioTV ടാഗ് ലൈൻ ഉള്ള ലിങ്കുകൾ മാത്രം ഫിൽറ്റർ ചെയ്യുന്നു
+            grep -i -A 1 "jiotv" temp.m3u >> Shoe.m3u
+            sed -i '/^--$/d' Shoe.m3u
+            
+            rm temp.m3u
+          else
+            echo "ഡൗൺലോഡ് പരാജയപ്പെട്ടു അല്ലെങ്കിൽ സെക്യൂരിറ്റി ബ്ലോക്ക് കാരണം HTML ലഭിച്ചു. സ്കിപ്പ് ചെയ്യുന്നു..."
+            rm temp.m3u
+            exit 1
+          fi
 
-          SOURCE_URL = "https://mute-sunset-8225.streamstar18.workers.dev/"
-          OUTPUT_FILE = "viva.m3u"
-          FILTER_TAGS = []
-
-          def fetch_playlist(url):
-              req = urllib.request.Request(
-                  url,
-                  headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-              )
-              with urllib.request.urlopen(req, timeout=30) as response:
-                  return response.read().decode("utf-8", errors="ignore")
-
-          def format_entry(entry_lines):
-              extinf = entry_lines[0]
-              license_key = None
-              user_agent = None
-              cookie = None
-              url = None
-
-              for line in entry_lines[1:]:
-                  stripped = line.strip()
-                  if not stripped:
-                      continue
-
-                  if stripped.startswith("#KODIPROP:inputstream.adaptive.license_key="):
-                      license_key = stripped.split("=", 1)[1].strip()
-                  elif stripped.startswith("#EXTVLCOPT:http-user-agent="):
-                      parts = stripped.split("=", 1)
-                      if len(parts) > 1:
-                          user_agent = parts[1].strip()
-                  elif stripped.startswith("#EXTHTTP:"):
-                      json_part = stripped[len("#EXTHTTP:"):].strip()
-                      try:
-                          data = json.loads(json_part)
-                          if "cookie" in data:
-                              cookie = data["cookie"]
-                      except Exception:
-                          m = re.search(r'"cookie"\s*:\s*"([^"]+)"', json_part)
-                          if m:
-                              cookie = m.group(1)
-                  elif not stripped.startswith("#"):
-                      url = stripped
-
-              if url:
-                  url = re.sub(r"&xxx=[^|]*", "", url)
-                  url_base = url.split("|", 1)[0]
-
-                  headers = []
-                  if user_agent:
-                      headers.append(f"User-Agent={user_agent}")
-                  if cookie:
-                      headers.append(f"Cookie={cookie}")
-
-                  if headers:
-                      url = f"{url_base}|{'&'.join(headers)}"
-                  else:
-                      url = url_base
-
-              output = [extinf]
-              output.append("#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey")
-              if license_key:
-                  output.append(f"#KODIPROP:inputstream.adaptive.license_key={license_key}")
-              if url:
-                  output.append(url)
-
-              return "\n".join(output)
-
-          def process_playlist(raw_content):
-              lines = raw_content.splitlines()
-              formatted_entries = []
-              current_entry = []
-
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Shoe.m3u ഫയൽ സ്റ്റേജ് ചെയ്യുന്നു
+          git add Shoe.m3u
+          
+          if git diff --staged --quiet; then
+            echo "പ്ലേലിസ്റ്റിൽ പുതിയ മാറ്റങ്ങൾ ഒന്നും തന്നെയില്ല."
+          else
+            git commit -m "chore: update Shoe.m3u with latest JioTV links"
+            git pull --rebase origin main
+            git push origin main
+          fi
               for line in lines:
                   stripped = line.strip()
                   if not stripped or stripped.startswith("#EXTM3U"):
