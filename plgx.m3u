@@ -5446,14 +5446,14 @@ https://d2o8pibksxtln6.cloudfront.net/live/media/Times_Now/dash/Times_Now.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=b0fff2c56c084ab69a1f6c4369849bc2:dd2d3b3d81270840aa1f7fa9b8b30d7c
 https://d2o8pibksxtln6.cloudfront.net/live/media/Unite8_Sports_1_HD/dash/Unite8_Sports_1_HD.mpd
+#EXTINF:-1 tvg-id="9624884" tvg-name="Unite8 Sports 2 HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/03fc75c46d9a4b8daff3ef58d77c5bc7/version/0" tvg-category="Sports" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM" type="dash",Unite8 Sports 2 HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=4477566dfdfc4851af4562cebd1cd22a:4baa3bca5ae7940101b001f87ac75ad4
+https://d2o8pibksxtln6.cloudfront.net/live/media/Unite8_Sports_2_HD/dash/Unite8_Sports_2_HD.mpd
 #EXTINF:-1 tvg-id="9487082" tvg-name="Wion" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/938610751fea47dbbaa97beae47fdc12/version/0" tvg-category="News" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM" type="dash",Wion
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=141763c9590f4662a1a82824a82eab3a:b9e5ffa7be265454f3684c5ce7137038
 https://d2o8pibksxtln6.cloudfront.net/live/media/Wion/dash/Wion.mpd
-#EXTINF:-1 tvg-id="9487065" tvg-name="Zee 24 GHANTA" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/4250427f57894b2c904cdd96bbd418ac/version/0" tvg-category="News" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM" type="dash",Zee 24 GHANTA
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b8f04793229e4018bb4d85bcd1422089:f3198689581d3e063abba57384ad7122
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_24_Ghanta/dash/Zee_24_Ghanta.mpd
 #EXTINF:-1 tvg-id="9487052" tvg-name="Zee Action" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/34108078d7874122b00072cb48a6968a/version/0" tvg-category="Movies" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM" type="dash",Zee Action
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2e9b229dca46428fb207d2834ed04028:e25d08d0916f570d681bc7e2da588a21
@@ -5521,6 +5521,10 @@ https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Sarthak/dash/Zee_Sarthak.mp
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=c343462c7968430a8423b16813d3506b:a5307c18e95e2d57548a3860e63edca4
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Talkies_HD/dash/Zee_Talkies_HD.mpd
+#EXTINF:-1 tvg-id="9624891" tvg-name="Zee Telugu HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/3e8e7c08dedc48ee9ed67fc0bc4ecf76/version/0" tvg-category="Entertainment" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM" type="dash",Zee Telugu HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=a1bb0d6c635f4f299a5dab32ab14c849:615a23ad90e034e05e7c53a0344cb795
+https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Telugu_HD/dash/Zee_Telugu_HD.mpd
 #EXTINF:-1 tvg-id="9649000" tvg-name="Zee Thirai" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/cef53bf4b0cd4d79913452f6f645c13f/version/0" tvg-category="Movies" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM" type="dash",Zee Thirai
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=c7b73ae470d6440f895cac4fa0d0b441:bdce22e88eb66c8a5ea4fe7ec73d1b2d
@@ -5545,15 +5549,12 @@ https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=609966868cac4f7dafe071dcbe1ec8c9:bc904db3a1cc5157c925226ef8187c7d
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zoom/dash/Zoom.mpd
-#EXTINF:-1 tvg-name="ICC CWC League 2 USA, 2026 [English]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249659_53086_NAM_UAE_fc-web.png" tvg-category="Sports" group-title="FanCode" group-logo="https://www.google.com/s2/favicons?domain=fancode.com&sz=128",ICC CWC League 2 USA, 2026 [English]
+#EXTINF:-1 tvg-name="Sheffield Shield, 2026/27 [English]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249662_53087_VCT_SAU_FC-WEB_1791295174023.jpg" tvg-category="Sports" group-title="FanCode" group-logo="https://www.google.com/s2/favicons?domain=fancode.com&sz=128",Sheffield Shield, 2026/27 [English]
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-https://in-mc-flive.fancode.com/mumbai/4249659_english_hls_ac4329ad4035044_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791657243~_GO=Generated~acl=/mumbai/4249659_english_hls_ac4329ad4035044_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_6603b9cd-cb58-4a~Signature=AXZsC1DbJnNobDySMik-EU1EuHyUPxH5p3789C1TeQmoOyqgZDFsSc6ScIL8qBX8rOHO6iu2HCrz4UYsp4Uvsa2dmMkN
-#EXTINF:-1 tvg-name="Roshn Saudi League 2026-2027 [English]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png" tvg-category="Sports" group-title="FanCode" group-logo="https://www.google.com/s2/favicons?domain=fancode.com&sz=128",Roshn Saudi League 2026-2027 [English]
+https://in-mc-flive.fancode.com/mumbai/4249662_english_hls_3995c057df22782_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791674400~_GO=Generated~acl=/mumbai/4249662_english_hls_3995c057df22782_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_31ad243a-d472-49~Signature=AXZsC1CivBU9-MjkWzglVcKj9By8-gmP790lL2rftPkIzXn8s0vAcA6F5sYJH5qQelirB00GDGyPiHNwhH25qoWr55cI
+#EXTINF:-1 tvg-name="Sheffield Shield, 2026/27 [English]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249663_53087_NSW_TAS_FC-WEB_1791296057796.jpg" tvg-category="Sports" group-title="FanCode" group-logo="https://www.google.com/s2/favicons?domain=fancode.com&sz=128",Sheffield Shield, 2026/27 [English]
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-https://in-mc-flive.fancode.com/mumbai/4249138_english_hls_06e7cc868916934_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791657248~_GO=Generated~acl=/mumbai/4249138_english_hls_06e7cc868916934_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_1e194e5e-62ca-4b~Signature=AXZsC1DjmyJa0bBk6XafOB4UhAD4e--5GKFDrd0YOJGUXQnNgmhY4-CjFczLdr_SkgMHslI_u3kjF3XjSR-_bwfQcyID
-#EXTINF:-1 tvg-name="EFL Championship 2026-27 [English]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249588_52993_WHU_QPR_fc-web.jpg" tvg-category="Sports" group-title="FanCode" group-logo="https://www.google.com/s2/favicons?domain=fancode.com&sz=128",EFL Championship 2026-27 [English]
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-https://in-mc-flive.fancode.com/mumbai/4249588_english_hls_ab48fa75c557855_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791657941~_GO=Generated~acl=/mumbai/4249588_english_hls_ab48fa75c557855_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_984a3a84-c59f-42~Signature=AXZsC1DEvgy4HPKZTj-WKLp-JLyojWu9VtcDcSRxwPJZKcQLT-NueZzt6Nizb5Qaz4kVRDC1jguwgnHP2Rmny-rAQnwB
+https://in-mc-flive.fancode.com/mumbai/4249663_english_hls_8e2773aae983814_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791674404~_GO=Generated~acl=/mumbai/4249663_english_hls_8e2773aae983814_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_5284382d-5fc8-4f~Signature=AXZsC1C_FNj-JpiPJXpLlDDcrdWRe2VLv7NqVnwtBWo3_F4YFQaEtR1juyX-acLN9lOk6WYWerjr7K7dInW_oaqZa3YD
 #EXTINF:-1 tvg-id="dangalplay-dangal" tvg-name="Dangal" tvg-logo="https://dangaplay-json.s3.ap-south-1.amazonaws.com/Dangal_16x9.jpg" group-title="Dangal Play" group-logo="https://play-lh.googleusercontent.com/gpqmD8o2XoBmDvQLWwekr0ydtnMv8i170Y6HUnOV5oRCpDCV7fMDW9HMCWdXyH7ESVmy9xoKznhByhwZograSw=w240-h480",Dangal
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 https://live-dangal.akamaized.net/liveabr/playlist.m3u8|User-Agent=plaYtv/7.1.5 (Linux;Android 14) ExoPlayerLib/2.11.7
