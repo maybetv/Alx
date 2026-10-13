@@ -5480,7 +5480,7 @@ https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Bangla_HD/dash/Zee_Bangla_H
 https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_Bangla_Sonar/dash/ZEE_Bangla_Sonar.mpd
 #EXTINF:-1 tvg-id="9624887" tvg-name="Zee Biskope" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/bb424c74bfd54392a86b4a343996b6d5/version/0" tvg-category="Movies" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM" type="dash",Zee Biskope
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=99856567f19348e9ad9682429d05101d:72f0c5aeb2a8f8e4f7f222223800020d
+#KODIPROP:inputstream.adaptive.license_key=99856567f19348e9ad9682429d05101d:b0884759ef3b47aeaf0ecbe7af85cfec
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Biskope/dash/Zee_Biskope.mpd
 #EXTINF:-1 tvg-id="9487104" tvg-name="Zee Bollywood" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/e1de996d54864c78b8daf60d63974223/version/0" tvg-category="Movies" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM" type="dash",Zee Bollywood
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -5557,12 +5557,6 @@ https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=1245544725da4aff94c8381c2203659b:b232f72a5405e08393e1fbc055f6c0e4
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zoom/dash/Zoom.mpd
-#EXTINF:-1 tvg-name="One Day Cup, 2026/27 [English]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249284_53072_NSW_TAS_FC-Web.jpg" tvg-category="Sports" group-title="FanCode" group-logo="https://www.google.com/s2/favicons?domain=fancode.com&sz=128",One Day Cup, 2026/27 [English]
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-https://in-mc-flive.fancode.com/mumbai/4249284_english_hls_c321af589727563_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791931977~_GO=Generated~acl=/mumbai/4249284_english_hls_c321af589727563_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_c2dda812-1cd6-44~Signature=AZJsJWaEf8OFw401s_Fgrbznvle1-YucBN5_9hRVodLdxfd9YErQcm_HY0O1F2Dbiew9-eI1CafpwmZWtK95jmh-6zsG
-#EXTINF:-1 tvg-name="T20 Spring Challenge, 2026 [English]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249788_53097_SS-W_AM-W_FC-Web.png" tvg-category="Sports" group-title="FanCode" group-logo="https://www.google.com/s2/favicons?domain=fancode.com&sz=128",T20 Spring Challenge, 2026 [English]
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-https://in-mc-flive.fancode.com/mumbai/4249788_english_hls_12f19be64b84869_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791931978~_GO=Generated~acl=/mumbai/4249788_english_hls_12f19be64b84869_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_2c756caa-1ea9-4c~Signature=AZJsJWZhrjZxXJ39OJbBhcm_GfTFBJAoe5E0Kf3rSVZIav5czB2UIKtFUn6i-e_YrXpOgkU0Vw8yvYoMJCgd-zmaouwJ
 #EXTINF:-1 tvg-id="dangalplay-dangal" tvg-name="Dangal" tvg-logo="https://dangaplay-json.s3.ap-south-1.amazonaws.com/Dangal_16x9.jpg" group-title="Dangal Play" group-logo="https://play-lh.googleusercontent.com/gpqmD8o2XoBmDvQLWwekr0ydtnMv8i170Y6HUnOV5oRCpDCV7fMDW9HMCWdXyH7ESVmy9xoKznhByhwZograSw=w240-h480",Dangal
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 https://live-dangal.akamaized.net/liveabr/playlist.m3u8|User-Agent=plaYtv/7.1.5 (Linux;Android 14) ExoPlayerLib/2.11.7
