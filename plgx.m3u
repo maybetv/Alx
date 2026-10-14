@@ -5416,7 +5416,7 @@ https://d2o8pibksxtln6.cloudfront.net/live/media/DD_Bharti/hls_fta/DD_Bharti.m3u
 https://d2o8pibksxtln6.cloudfront.net/live/media/DD_National/hls_fta/DD_National.m3u8
 #EXTINF:-1 tvg-id="9487081" tvg-name="ET Now" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/81f431adc0714cff84be95b33d9b1b83/version/0" tvg-category="Business" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM" type="dash",ET Now
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=bd3e74188c9c432aaef31a346c2a8cb4:290186ed69514cf50c39355190f87c5f
+#KODIPROP:inputstream.adaptive.license_key=bd3e74188c9c432aaef31a346c2a8cb4:0986cf49a15a5752da9bf64d7cf959bd
 https://d2o8pibksxtln6.cloudfront.net/live/media/ET_Now/dash/ET_Now.mpd
 #EXTINF:-1 tvg-id="9487064" tvg-name="Fakt Marathi" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/a924cd82e1d44b9cad4a6f62daee5126/version/0" tvg-category="Entertainment" group-title="VZY" group-logo="https://play-lh.googleusercontent.com/U5hCC5eI3y7NKBOs1xFMHddHFWKuxV2vJj3rKbWo5fsmRzHVJMl7AmbqfOMxLsXKC4e5qf7L7h8LKZMU6U0fIJM",Fakt Marathi
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -5558,12 +5558,6 @@ https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=1245544725da4aff94c8381c2203659b:b232f72a5405e08393e1fbc055f6c0e4
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zoom/dash/Zoom.mpd
-#EXTINF:-1 tvg-name="ICC CWC League 2 USA, 2026 [English]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249661_53086_USA_NAM_fc-web.png" tvg-category="Sports" group-title="FanCode" group-logo="https://www.google.com/s2/favicons?domain=fancode.com&sz=128",ICC CWC League 2 USA, 2026 [English]
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-https://in-mc-flive.fancode.com/mumbai/4249661_english_hls_9bc340b99751112_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791989635~_GO=Generated~acl=/mumbai/4249661_english_hls_9bc340b99751112_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_8b825f8e-6282-44~Signature=AZJsJWbdfREV4LlncNKXCNuYgPQ2Hukq9qlqqnZGdAdwfSNhfoqdiWPQYzWOvF221t_PXsZy_A4nJiOOQuifX28Y5FEE
-#EXTINF:-1 tvg-name="EFL Championship 2026-27 [English]" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249592_52993_STK_MIDD_fc-web.jpg" tvg-category="Sports" group-title="FanCode" group-logo="https://www.google.com/s2/favicons?domain=fancode.com&sz=128",EFL Championship 2026-27 [English]
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-https://in-mc-flive.fancode.com/mumbai/4249592_english_hls_f51aff0c2439132_1ta-di_h264/1080p.m3u8?hdntl=Expires=1792003857~_GO=Generated~acl=/mumbai/4249592_english_hls_f51aff0c2439132_1ta-di_h264/*~SessionID=fc-app_sportsguruand_watcho_01f0d713-b2eb-44~Signature=AZJsJWZNCgeBI3TiDQGUpp9uxmv96JVF7znWugrgeG4dbRmGB1RA-14QFkT6bpH6GXXNh4vRVEP3_YRL6bGINM7C_UYP
 #EXTINF:-1 tvg-id="dangalplay-dangal" tvg-name="Dangal" tvg-logo="https://dangaplay-json.s3.ap-south-1.amazonaws.com/Dangal_16x9.jpg" group-title="Dangal Play" group-logo="https://play-lh.googleusercontent.com/gpqmD8o2XoBmDvQLWwekr0ydtnMv8i170Y6HUnOV5oRCpDCV7fMDW9HMCWdXyH7ESVmy9xoKznhByhwZograSw=w240-h480",Dangal
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 https://live-dangal.akamaized.net/liveabr/playlist.m3u8|User-Agent=plaYtv/7.1.5 (Linux;Android 14) ExoPlayerLib/2.11.7
